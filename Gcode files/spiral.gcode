@@ -1,0 +1,92 @@
+(Scribbled version of C:\Users\ANANDV~1\AppData\Local\Temp\ink_ext_XXXXXX.svgZ1P93Y @ 3500.00)
+( unicorn.py --tab="plotter_setup" --pen-up-angle=50 --pen-down-angle=30 --start-delay=150 --stop-delay=150 --xy-feedrate=3500 --z-feedrate=150 --z-height=0 --finished-height=0 --register-pen=true --x-home=0 --y-home=0 --num-copies=1 --continuous=false --pause-on-layer-change=false C:\Users\ANANDV~1\AppData\Local\Temp\ink_ext_XXXXXX.svgZ1P93Y )
+G21 (metric ftw)
+G90 (absolute mode)
+G92 X0.00 Y0.00 Z0.00 (you are here)
+
+M300 S30 (pen down)
+G4 P150 (wait 150ms)
+M300 S50 (pen up)
+G4 P150 (wait 150ms)
+M18 (disengage drives)
+M01 (Was registration test successful?)
+M17 (engage drives if YES, and continue)
+
+(Polyline consisting of 1 segments.)
+G1 X-0.69 Y-1.97 F3500.00
+M300 S30.00 (pen down)
+G4 P150 (wait 150ms)
+G1 X-0.80 Y-2.34 F3500.00
+G1 X-1.15 Y-2.49 F3500.00
+G1 X-1.93 Y-2.33 F3500.00
+G1 X-2.40 Y-1.74 F3500.00
+G1 X-2.49 Y-1.02 F3500.00
+G1 X-1.85 Y0.31 F3500.00
+G1 X-0.85 Y0.86 F3500.00
+G1 X0.25 Y0.90 F3500.00
+G1 X1.31 Y0.52 F3500.00
+G1 X2.17 Y-0.23 F3500.00
+G1 X2.82 Y-1.62 F3500.00
+G1 X2.82 Y-3.11 F3500.00
+G1 X2.24 Y-4.51 F3500.00
+G1 X1.19 Y-5.63 F3500.00
+G1 X-0.60 Y-6.38 F3500.00
+G1 X-2.48 Y-6.33 F3500.00
+G1 X-4.22 Y-5.57 F3500.00
+G1 X-5.60 Y-4.20 F3500.00
+G1 X-6.45 Y-2.02 F3500.00
+G1 X-6.35 Y0.25 F3500.00
+G1 X-5.41 Y2.34 F3500.00
+G1 X-3.73 Y3.97 F3500.00
+G1 X-2.47 Y4.60 F3500.00
+G1 X-1.16 Y4.93 F3500.00
+G1 X1.51 Y4.78 F3500.00
+G1 X3.95 Y3.65 F3500.00
+G1 X5.83 Y1.65 F3500.00
+G1 X6.53 Y0.21 F3500.00
+G1 X6.90 Y-1.31 F3500.00
+G1 X6.95 Y-2.85 F3500.00
+G1 X6.70 Y-4.37 F3500.00
+G1 X5.38 Y-7.15 F3500.00
+G1 X4.34 Y-8.32 F3500.00
+G1 X3.07 Y-9.29 F3500.00
+G1 X1.43 Y-10.07 F3500.00
+G1 X-0.29 Y-10.47 F3500.00
+G1 X-2.03 Y-10.51 F3500.00
+G1 X-3.74 Y-10.22 F3500.00
+G1 X-5.37 Y-9.61 F3500.00
+G1 X-6.87 Y-8.70 F3500.00
+G1 X-8.18 Y-7.52 F3500.00
+G1 X-9.26 Y-6.08 F3500.00
+G1 X-10.11 Y-4.25 F3500.00
+G1 X-10.54 Y-2.34 F3500.00
+G1 X-10.58 Y-0.40 F3500.00
+G1 X-10.25 Y1.51 F3500.00
+G1 X-9.56 Y3.32 F3500.00
+G1 X-8.54 Y4.98 F3500.00
+G1 X-7.22 Y6.44 F3500.00
+G1 X-5.60 Y7.63 F3500.00
+G1 X-3.58 Y8.55 F3500.00
+G1 X-1.47 Y9.02 F3500.00
+G1 X0.67 Y9.05 F3500.00
+G1 X2.77 Y8.68 F3500.00
+G1 X4.76 Y7.91 F3500.00
+G1 X6.59 Y6.78 F3500.00
+G1 X8.19 Y5.31 F3500.00
+G1 X9.49 Y3.53 F3500.00
+G1 X10.79 Y0.19 F3500.00
+G1 X11.03 Y-3.33 F3500.00
+G1 X10.25 Y-6.78 F3500.00
+G1 X8.48 Y-9.89 F3500.00
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
+
+
+(end of print job)
+M300 S50.00 (pen up)
+G4 P150 (wait 150ms)
+M300 S255 (turn off servo)
+G1 X0 Y0 F3500.00
+G1 Z0.00 F150.00 (go up to finished level)
+G1 X0.00 Y0.00 F3500.00 (go home)
+M18 (drives off)
